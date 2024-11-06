@@ -75,7 +75,7 @@ nav ul li{
     margin: 5px;
     color: white;
     font-size: 15px;
-    
+
 }
 .name-buttons{
     display: flex;
@@ -103,6 +103,7 @@ nav ul li{
 .See-again-head{
     display: flex;
     align-items: center;
+    
 }
 .middle{
     background-color: rgb(20,20,20);
@@ -110,6 +111,7 @@ nav ul li{
 .images{
     display: flex;
     justify-content: space-evenly;
+    border: 1px solid white;
 }
 .images img{
     width: 210px;
@@ -178,4 +180,39 @@ footer{
     margin-top: 25px;
     margin-left: 46px;
     align-items: center;
+}
+
+
+
+@media (max-width:700px){
+   
+
+    .images{
+        flex-wrap: wrap;
+        
+    }
+}
+
+
+@media (max-width:400px){
+   
+
+    .images{
+        flex-wrap: wrap;
+        
+    }
+    .lll{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        margin-top: 200px;
+        transform: translate(-200%);
+        
+        
+    }
+
+    .lll_mobile{
+        transform: translate(0%);
+      
+}
 }
